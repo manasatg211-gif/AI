@@ -1,0 +1,10 @@
+
+div
+ {
+    display: block;
+}
+.main
+{
+    display:grid;
+    grid-template-columns;
+}
