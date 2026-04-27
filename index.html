@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:flex-end;
+    padding:20px 50px;
+    background:#111827;
+}
+
+nav a{
+    color:white;
+    margin-left:30px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#22d3ee;
+}
+
+/* HOME SECTION */
+.home{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+/* CIRCLE */
+.circle{
+    width:150px;
+    height:150px;
+    border:6px solid #22d3ee;
+    border-radius:50%;
+    border-top-color:transparent;
+    margin-bottom:20px;
+    animation:rotate 2s linear infinite;
+}
+
+@keyframes rotate{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+h1{
+    font-size:32px;
+}
+
+h1 span{
+    color:#22d3ee;
+}
+
+p{
+    margin:10px 0;
+    color:#cbd5f5;
+}
+
+/* BUTTON */
+button{
+    padding:12px 25px;
+    background:#22d3ee;
+    border:none;
+    border-radius:5px;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#06b6d4;
+}
+
+/* ABOUT */
+.about{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.about h2{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.about p{
+    max-width:600px;
+    margin:auto;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Skills</a>
+</nav>
+
+<!-- HOME -->
+<section class="home">
+    <div class="circle"></div>
+
+    <h1>Hello, I'm <span>Manasa</span></h1>
+    <p>Learner | Student</p>
+
+    <button>Hire Me</button>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate web developer learning HTML, CSS and building real-time projects.
+        I enjoy creating clean and modern designs.
+    </p>
+</section>
+
+</body>
+</html>

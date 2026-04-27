@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manas TG | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #111;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Section */
+.section {
+    margin: 50px 0;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-left: 4px solid #111;
+    padding-left: 10px;
+}
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #111;
+    color: white;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Contact */
+.contact p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>Manas TG</h1>
+    <p>Student Developer | Building Real-World Solutions</p>
+</div>
+
+<div class="container">
+
+<!-- About -->
+<div class="section" id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science student passionate about developing real-world applications.
+        I enjoy solving problems and continuously learning new technologies.
+    </p>
+</div>
+
+<!-- Education -->
+<div class="section" id="education">
+    <h2>Education</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Bachelor of Computer Science</h3>
+            <p>Your College Name</p>
+            <p>2023 – 2026</p>
+        </div>
+        <div class="card">
+            <h3>PUC</h3>
+            <p>Your College Name</p>
+        </div>
+        <div class="card">
+            <h3>SSLC</h3>
+            <p>Your School Name</p>
+        </div>
+    </div>
+</div>
+
+<!-- Projects -->
+<div class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Smart Waste Management</h3>
+            <p>Efficient garbage tracking system.</p>
+        </div>
+        <div class="card">
+            <h3>Ride Sharing App</h3>
+            <p>Affordable transport solution for students.</p>
+        </div>
+        <div class="card">
+            <h3>Fake News Detection</h3>
+            <p>Identifies misleading information.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Skills -->
+<div class="section skills" id="skills">
+    <h2>Skills</h2>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Java</span>
+    <span>JavaScript</span>
+    <span>GitHub</span>
+</div>
+
+<!-- Contact -->
+<div class="section contact" id="contact">
+    <h2>Contact</h2>
+    <p>Email: manasatg211@gmail.com</p>
+    <p>GitHub: github.com/manasatg</p>
+</div>
+
+</div>
+
+<footer>
+    <p>© 2026 Manas TG</p>
+</footer>
+
+</body>
+</html>
